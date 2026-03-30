@@ -144,10 +144,31 @@ h1, h2, h3, h4, .font-title {
   border-radius: 10px;
 }
 
+/* Ticker Animation */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-wrapper {
+  display: inline-block;
+  animation: ticker 30s linear infinite;
+}
+
+.ticker-wrapper:hover {
+  animation-play-state: paused;
+}
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
   .text-huge {
     font-size: 2.5rem;
     line-height: 1.1;
+  }
+  nav {
+    top: 0 !important; /* Em mobile, colamos a nav no topo para economizar espaço */
+  }
+  .ticker-wrapper {
+    animation-duration: 20s;
   }
 }

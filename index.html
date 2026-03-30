@@ -36,8 +36,20 @@
 
 <body id="topo" class="bg-deep text-slate-200">
 
+<!-- Barra Superior - Ticker Informativo -->
+<div class="fixed top-0 left-0 right-0 z-[110] bg-primary h-8 flex items-center overflow-hidden">
+  <div class="ticker-wrapper whitespace-nowrap px-4 font-black text-[0.6rem] uppercase tracking-[0.25em] text-deep italic">
+    <span class="inline-flex items-center gap-4">
+      SITE OFICIAL UNITV RECARGA — REVENDEDORA AUTORIZADA — CUIDADO COM FRAUDES: NÃO TEMOS RELAÇÃO COM SITE "UNITV NET" — ADQUIRA CÓDIGOS ORIGINAIS AQUI COM SEGURANÇA — ATENDIMENTO 24H VIA WHATSAPP — SITE OFICIAL UNITV RECARGA — REVENDEDORA AUTORIZADA — 
+    </span>
+    <span class="inline-flex items-center gap-4 ml-4">
+      SITE OFICIAL UNITV RECARGA — REVENDEDORA AUTORIZADA — CUIDADO COM FRAUDES: NÃO TEMOS RELAÇÃO COM SITE "UNITV NET" — ADQUIRA CÓDIGOS ORIGINAIS AQUI COM SEGURANÇA — ATENDIMENTO 24H VIA WHATSAPP — SITE OFICIAL UNITV RECARGA — REVENDEDORA AUTORIZADA — 
+    </span>
+  </div>
+</div>
+
 <!-- Menu de Navegação Futurista -->
-<nav class="fixed top-0 left-0 right-0 z-[100] glass-nav transition-all duration-300" id="navbar">
+<nav class="fixed top-8 left-0 right-0 z-[100] glass-nav transition-all duration-300" id="navbar">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
       <!-- Logo -->
@@ -412,21 +424,6 @@
       <h3 class="text-3xl font-black text-white mb-4 font-title">Manutenção Rápida</h3>
       <p class="text-slate-400 mb-8 font-medium">Estamos aprimorando nosso sistema. Voltamos em alguns instantes!</p>
       <button onclick="document.getElementById('modalManutencao').classList.add('hidden')" class="btn-futuristic text-white px-10 py-4 rounded-full text-xs font-black w-full">Entendido</button>
-    </div>
-  </div>
-
-  <!-- Modal Aviso UniTv Oficial -->
-  <div id="modalUnitvAviso" class="fixed inset-0 z-[200] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
-    <div class="glass max-w-md w-full p-10 rounded-[2.5rem] border-primary/30 text-center shadow-2xl">
-       <div class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
-         <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-       </div>
-       <h3 class="text-2xl font-black text-white mb-4 font-title">Aviso de Segurança</h3>
-       <p class="text-slate-400 mb-6 text-sm leading-relaxed">Este é o <strong>site oficial UniTv</strong>. NÃO somos UniTv NET e não temos relação com eles. Nossos códigos <strong>NÃO</strong> funcionam no app deles.</p>
-       <div class="space-y-4">
-         <button onclick="document.getElementById('modalUnitvAviso').classList.add('hidden')" class="btn-futuristic text-primary-deep px-8 py-4 rounded-full text-xs font-black w-full bg-accent text-white shadow-accent/20">Entendi, continuar</button>
-         <button onclick="window.history.back()" class="text-slate-500 font-bold text-xs uppercase hover:text-white transition-colors">Cancelar e sair</button>
-       </div>
     </div>
   </div>
 
