@@ -159,6 +159,20 @@ h1, h2, h3, h4, .font-title {
   animation-play-state: paused;
 }
 
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+#whatsapp-float:hover .relative {
+  transform: scale(1.1);
+  background-color: #128C7E; /* Tom de verde mais escuro do Whats ao hover */
+}
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
   .text-huge {
@@ -166,9 +180,13 @@ h1, h2, h3, h4, .font-title {
     line-height: 1.1;
   }
   nav {
-    top: 0 !important; /* Em mobile, colamos a nav no topo para economizar espaço */
+    top: 0 !important;
   }
   .ticker-wrapper {
     animation-duration: 20s;
+  }
+  #whatsapp-float {
+    bottom: 4rem;
+    right: 1.5rem;
   }
 }
