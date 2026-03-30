@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>UniTV S1 | Box Oficial com Canais ao Vivo e VOD em 4K</title>
+  <meta name="description" content="Conheça a UniTV S1, a box oficial da UniTV e hTV com mais de 340 canais ao vivo e 1 milhão de conteúdos VOD. Assista filmes e séries em 4K/UHD com desempenho superior.">
+  
+  <!-- Tailwind & Custom CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            deep: '#060212',
+            primary: '#00F2FF',
+            secondary: '#B026FF',
+            accent: '#FFA85A',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-deep text-slate-200">
+
+<!-- Navegação (Consistente com Home) -->
+<nav class="fixed top-0 left-0 right-0 z-[100] h-20 bg-deep/80 backdrop-blur-xl border-b border-primary/10 transition-all duration-300" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3 group">
+      <div class="p-1 rounded-xl bg-gradient-to-br from-primary to-secondary group-hover:scale-110 transition-transform">
+        <img src="assets/img/logo.png" alt="UniTv Logo" class="h-10 w-10 rounded-lg bg-deep p-1">
+      </div>
+      <div class="flex flex-col leading-tight">
+        <span class="text-2xl font-black font-title tracking-tighter text-white">Unitv <span class="text-primary italic">Recarga</span></span>
+        <span class="text-[0.65rem] text-primary uppercase font-bold tracking-[0.3em]">Revenda Oficial</span>
+      </div>
+    </a>
+
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="index.html" class="text-xs font-bold hover:text-primary transition-colors uppercase tracking-widest text-slate-400">Início</a>
+      <div class="relative group dropdown">
+        <button class="text-xs font-bold text-primary transition-colors uppercase tracking-widest flex items-center gap-1">
+          Produtos
+          <svg class="w-3 h-3 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+        </button>
+        <div class="absolute top-full left-0 mt-4 w-48 glass rounded-2xl p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+          <a href="unitv-s1.html" class="block px-4 py-3 rounded-xl hover:bg-primary/10 text-[0.65rem] font-black tracking-widest uppercase text-primary">UniTV S1 Box</a>
+          <a href="download.html" class="block px-4 py-3 rounded-xl hover:bg-white/5 text-[0.65rem] font-black tracking-widest uppercase text-slate-400">UniTV APP</a>
+        </div>
+      </div>
+      <a href="download.html" class="text-xs font-bold hover:text-primary transition-colors uppercase tracking-widest text-slate-400">Download</a>
+      <a href="index.html#faq" class="text-xs font-bold hover:text-primary transition-colors uppercase tracking-widest text-slate-400">FAQ</a>
+      <a href="index.html#investimento" class="btn-futuristic text-white px-8 py-3 rounded-full text-xs shadow-lg shadow-primary/20">Comprar Agora</a>
+    </div>
+  </div>
+</nav>
+
+<main class="relative pt-32 pb-20 px-4 overflow-hidden">
+  <!-- Glowing Backgrounds -->
+  <div class="absolute top-0 left-0 w-full h-full pointers-events-none -z-10">
+    <div class="absolute top-20 -left-20 w-[500px] h-[500px] bg-primary/5 blur-[150px] rounded-full"></div>
+    <div class="absolute bottom-40 -right-20 w-[600px] h-[600px] bg-secondary/5 blur-[180px] rounded-full"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 mb-40 reveal">
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <div class="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent px-5 py-2 rounded-full text-[0.65rem] font-black uppercase tracking-[0.2em] mb-8">
+        <span class="w-2 h-2 bg-accent rounded-full animate-pulse shadow-[0_0_10px_var(--accent)]"></span>
+        Melhor Custo-Benefício do Brasil
+      </div>
+      <h1 class="text-6xl md:text-8xl font-black font-title text-white mb-8 leading-none tracking-tighter italic">
+        UNITV <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary not-italic">S1 BOX</span>
+      </h1>
+      <p class="text-xl text-slate-400 mb-10 leading-relaxed font-medium">
+        A única TV Box original fornecida pela oficial da UniTV. Já inclui os serviços VIP do APP<strong> "UniTV FREE"</strong> inclusos para sempre, sem mensalidades adicionais.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+        <a href="#investimento" class="btn-futuristic px-12 py-5 rounded-full text-[0.7rem] font-black uppercase tracking-widest bg-primary text-deep shadow-[0_0_30px_rgba(0,242,255,0.3)]">Comprar Agora</a>
+        <div class="flex items-center gap-3 px-8 py-5 glass rounded-full border-primary/20">
+          <span class="text-primary font-black text-sm">6 MESES</span>
+          <span class="text-[0.6rem] text-slate-500 font-bold uppercase tracking-widest leading-none">Garantia total<br>de hardware</span>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/2 relative group">
+      <div class="absolute inset-0 bg-primary/20 blur-[120px] rounded-full animate-pulse group-hover:bg-primary/40 transition-all"></div>
+      <img src="assets/img/unitv_s1.png" alt="UniTV S1 Box" class="relative z-10 w-full max-w-lg mx-auto drop-shadow-[0_0_50px_rgba(0,242,255,0.4)] floating pointer-events-none">
+    </div>
+  </section>
+
+  <!-- Hardware Focus -->
+  <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mb-40 reveal sm:delay-200">
+    <div class="glass p-12 rounded-[3rem] border-primary/5 hover:border-primary/20 transition-all group overflow-hidden">
+      <div class="h-20 w-20 bg-primary/10 rounded-2xl flex items-center justify-center mb-10 group-hover:bg-primary transition-colors border border-primary/20">
+        <svg class="w-10 h-10 text-primary group-hover:text-deep" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+      </div>
+      <h3 class="text-3xl font-black text-white mb-6 font-title tracking-tight">Qualidade Sem Substitutos</h3>
+      <p class="text-slate-400 leading-relaxed font-bold opacity-80 mb-8">
+        Ao contrário de outros concorrentes, o UniTV S1 <span class="text-accent underline decoration-accent/30 decoration-2 underline-offset-4">nunca usa materiais de segunda mão</span> ou reciclados. Oferecemos o equilíbrio perfeito entre hardware econômico e durabilidade confiável.
+      </p>
+      <ul class="space-y-4">
+        <li class="flex items-center gap-3 text-xs font-black uppercase tracking-widest text-slate-500">
+          <span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Chipset Otimizado P2P
+        </li>
+        <li class="flex items-center gap-3 text-xs font-black uppercase tracking-widest text-slate-500">
+          <span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Design Térmico Avançado
+        </li>
+      </ul>
+    </div>
+
+    <div class="glass p-12 rounded-[3rem] border-secondary/5 hover:border-secondary/20 transition-all group overflow-hidden">
+      <div class="h-20 w-20 bg-secondary/10 rounded-2xl flex items-center justify-center mb-10 group-hover:bg-secondary transition-colors border border-secondary/20">
+        <svg class="w-10 h-10 text-secondary group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3 class="text-3xl font-black text-white mb-6 font-title tracking-tight italic">Entretenimento em 4K UHD</h3>
+      <p class="text-slate-400 leading-relaxed font-bold opacity-80">
+        Assista a todas as ligas de futebol, notícias, Kids, filmes e séries em altíssima definição. O UniTV S1 foi projetado para entregar o melhor do <span class="text-secondary italic">P2P Streaming</span> com zero travamentos.
+      </p>
+      <div class="mt-8 flex gap-3">
+        <span class="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[0.6rem] font-black uppercase text-slate-500 tracking-widest">Cinema 4K</span>
+        <span class="px-4 py-1.5 bg-white/5 border border-white/10 rounded-lg text-[0.6rem] font-black uppercase text-slate-500 tracking-widest">Ultra HD</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big stats Section -->
+  <section class="max-w-7xl mx-auto mb-48 reveal">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Canais -->
+      <div class="glass p-10 rounded-[3rem] text-center border-primary/10 relative overflow-hidden group">
+        <div class="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full group-hover:scale-150 transition-transform"></div>
+        <div class="text-6xl font-black text-primary font-title mb-4">+340</div>
+        <h4 class="text-xl font-bold text-white mb-2 uppercase tracking-widest">Canais Ao Vivo</h4>
+        <p class="text-slate-500 text-sm font-bold">Futebol, Notícias e Canais Locais.</p>
+        <div class="mt-6 inline-flex gap-2 bg-primary/5 px-4 py-1.5 rounded-full text-[0.6rem] font-black uppercase text-primary tracking-widest">Playback 7 Dias</div>
+      </div>
+
+      <!-- VOD -->
+      <div class="glass p-10 rounded-[3rem] text-center border-secondary/10 relative overflow-hidden group">
+        <div class="absolute -top-10 -right-10 w-32 h-32 bg-secondary/5 rounded-full group-hover:scale-150 transition-transform"></div>
+        <div class="text-6xl font-black text-secondary font-title mb-4">+1M</div>
+        <h4 class="text-xl font-bold text-white mb-2 uppercase tracking-widest">Conteúdo VOD</h4>
+        <p class="text-slate-500 text-sm font-bold">Mais filmes do que qualquer player.</p>
+        <div class="mt-6 inline-flex gap-2 bg-secondary/5 px-4 py-1.5 rounded-full text-[0.6rem] font-black uppercase text-secondary tracking-widest">Lançamentos Exclusivos</div>
+      </div>
+
+      <!-- Adultos -->
+      <div class="glass p-10 rounded-[3rem] text-center border-accent/10 relative overflow-hidden group md:col-span-2 lg:col-span-1">
+        <div class="absolute -top-10 -right-10 w-32 h-32 bg-accent/5 rounded-full group-hover:scale-150 transition-transform"></div>
+        <div class="text-6xl font-black text-accent font-title mb-4">HOT</div>
+        <h4 class="text-xl font-bold text-white mb-2 uppercase tracking-widest">Canais 18+</h4>
+        <p class="text-slate-500 text-sm font-bold">Com bloqueio parental de segurança.</p>
+        <div class="mt-6 inline-flex gap-2 bg-accent/5 px-4 py-1.5 rounded-full text-[0.6rem] font-black uppercase text-accent tracking-widest">Privacidade Garantida</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instalação Visual Section -->
+  <section class="max-w-5xl mx-auto mb-48 reveal">
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-5xl font-black text-white font-title mb-6 tracking-tighter">CONFIGURAÇÃO <span class="text-primary italic">INSTANTÂNEA</span></h2>
+      <p class="text-[0.7rem] font-black text-slate-500 uppercase tracking-[0.3em]">Plug and Play: Comece a assistir em minutos</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+      <!-- Line decoration -->
+      <div class="hidden md:block absolute top-[60px] left-[15%] right-[15%] h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent"></div>
+
+      <!-- Step 1 -->
+      <div class="flex flex-col items-center text-center group">
+        <div class="h-28 w-28 bg-deep rounded-full border-4 border-primary shadow-[0_0_20px_rgba(0,242,255,0.3)] flex items-center justify-center font-black text-3xl text-primary mb-8 z-10 group-hover:scale-110 transition-transform italic">1</div>
+        <h4 class="text-white font-black uppercase tracking-widest text-xs mb-4">Conecte à TV</h4>
+        <p class="text-slate-400 text-sm font-bold leading-relaxed px-4 opacity-70">Conecte o cabo HDMI (incluso) na porta traseira da sua TV Box S1.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="flex flex-col items-center text-center group">
+        <div class="h-28 w-28 bg-deep rounded-full border-4 border-primary shadow-[0_0_20px_rgba(0,242,255,0.3)] flex items-center justify-center font-black text-3xl text-primary mb-8 z-10 group-hover:scale-110 transition-transform italic">2</div>
+        <h4 class="text-white font-black uppercase tracking-widest text-xs mb-4">Acesse a Internet</h4>
+        <p class="text-slate-400 text-sm font-bold leading-relaxed px-4 opacity-70">Conecte via cabo de rede RJ45 ou Wi-Fi nas configurações.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="flex flex-col items-center text-center group">
+        <div class="h-28 w-28 bg-deep rounded-full border-4 border-primary shadow-[0_0_20px_rgba(0,242,255,0.3)] flex items-center justify-center font-black text-3xl text-primary mb-8 z-10 group-hover:scale-110 transition-transform italic">3</div>
+        <h4 class="text-white font-black uppercase tracking-widest text-xs mb-4">Abra o APP</h4>
+        <p class="text-slate-400 text-sm font-bold leading-relaxed px-4 opacity-70">Entre no aplicativo nativo "UniTV" já pré-instalado e divirta-se!</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Floating Buy Button -->
+<a href="#investimento" class="fixed bottom-8 right-8 z-[200] group md:hidden">
+  <div class="h-16 w-16 bg-primary rounded-full shadow-[0_0_40px_rgba(0,242,255,0.5)] flex items-center justify-center text-deep">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+  </div>
+</a>
+
+<footer class="bg-deep border-t border-primary/10 py-20 px-4">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+    <div class="space-y-6">
+      <div class="flex items-center gap-3">
+        <div class="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
+          <span class="text-deep font-black">U</span>
+        </div>
+        <span class="text-xl font-bold font-title text-white">UniTv <span class="text-primary italic">Recarga</span></span>
+      </div>
+      <p class="text-slate-500 font-medium">Revenda oficial autorizada UniTV S1. Excelência em distribuição de hardware original e conteúdos premium.</p>
+    </div>
+    
+    <div>
+      <h4 class="text-white font-black uppercase tracking-widest text-[0.65rem] mb-10 opacity-50">Produtos</h4>
+      <div class="grid grid-cols-2 gap-4 text-slate-400 font-bold text-sm">
+        <a href="unitv-s1.html" class="text-primary transition-colors">UniTV S1 Box</a>
+        <a href="download.html" class="hover:text-primary transition-colors">UniTV APP</a>
+        <a href="index.html#investimento" class="hover:text-primary transition-colors">Planos Mensais</a>
+        <a href="index.html#investimento" class="hover:text-primary transition-colors">Planos Anuais</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="text-white font-black uppercase tracking-widest text-[0.65rem] mb-10 opacity-50">Suporte Direto</h4>
+      <p class="text-slate-400 font-bold">unitvrecargaapp@gmail.com</p>
+      <div class="mt-6 flex gap-4">
+        <a href="#" class="h-10 w-10 glass rounded-lg flex items-center justify-center text-primary border-primary/20 hover:bg-primary/20 transition-all"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path></svg></a>
+        <a href="#" class="h-10 w-10 glass rounded-lg flex items-center justify-center text-primary border-primary/20 hover:bg-primary/20 transition-all"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path></svg></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-primary/5 text-center text-slate-600 text-[0.6rem] font-black uppercase tracking-[0.3em]">
+    © 2026 UniTv Oficial. Todos os direitos reservados.
+  </div>
+</footer>
+
+<script>
+  // Navbar Scroll effect (shared)
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (nav) {
+      if (window.scrollY > 50) {
+        nav.classList.add('py-2', 'shadow-2xl');
+      } else {
+        nav.classList.remove('py-2', 'shadow-2xl');
+      }
+    }
+  });
+
+  // Reveal effect
+  const reveal = () => {
+    const reveals = document.querySelectorAll('.reveal');
+    reveals.forEach(el => {
+      const windowHeight = window.innerHeight;
+      const revealTop = el.getBoundingClientRect().top;
+      const revealPoint = 100;
+      if (revealTop < windowHeight - revealPoint) {
+        el.classList.add('active');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', reveal);
+  window.addEventListener('load', reveal);
+</script>
+
+</body>
+</html>
