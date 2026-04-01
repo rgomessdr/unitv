@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/apk/
+Disallow: /assets/img/
+
+Sitemap: https://unitv067.shop/sitemap.xml
