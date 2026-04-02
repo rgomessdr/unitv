@@ -82,11 +82,6 @@ h1, h2, h3, h4, .font-title {
   mix-blend-mode: screen; /* Reforço para tons escuros sumirem */
 }
 
-
-
-
-
-
 .glow-hover:hover {
   box-shadow: 0 0 30px var(--primary-glow);
   border-color: var(--primary);

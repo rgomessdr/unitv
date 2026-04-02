@@ -1,6 +1,15 @@
 User-agent: *
 Allow: /
 Allow: /assets/img/
+Allow: /index.html
+Allow: /download.html
+Allow: /revenda.html
+Allow: /teste-gratis.html
+Allow: /unitv-s1.html
+Allow: /privacidade.html
+Allow: /termos.html
 Disallow: /assets/apk/
+Disallow: /appk/
+Disallow: /imagens/
 
 Sitemap: https://unitv067.shop/sitemap.xml
