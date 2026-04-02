@@ -73,7 +73,9 @@ h1, h2, h3, h4, .font-title {
 .device-showcase img {
   will-change: transform;
   filter: drop-shadow(0 25px 35px rgba(0,0,0,0.5));
+  mix-blend-mode: screen; /* Faz com que o fundo preto desapareça e se integre ao site */
 }
+
 
 
 .glow-hover:hover {
