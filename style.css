@@ -75,6 +75,15 @@ h1, h2, h3, h4, .font-title {
   filter: drop-shadow(0 25px 35px rgba(0,0,0,0.5));
 }
 
+.mask-device {
+  /* Máscara para "recortar" o objeto e remover os cantos pretos da imagem */
+  mask-image: radial-gradient(circle, black 65%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle, black 65%, transparent 100%);
+  mix-blend-mode: screen; /* Reforço para tons escuros sumirem */
+}
+
+
+
 
 
 
